@@ -1,5 +1,8 @@
 on:
   workflow_call:
+    secrets:
+      MONOREPO_SSH_DEPLOY_KEY:
+        required: true
   push:
     branches: [main]
 
