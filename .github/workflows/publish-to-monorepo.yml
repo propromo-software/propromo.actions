@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
           ssh-key: ${{ secrets.MONOREPO_SSH_DEPLOY_KEY }}
-          repository: propromo-software/monorepo-test
+          repository: propromo-software/propromo
           path: mono
 
       - name: Copy to mono
